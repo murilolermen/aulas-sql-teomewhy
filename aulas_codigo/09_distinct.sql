@@ -1,3 +1,10 @@
-SELECT DISTINCT flTwitch, flEmail
+-- SELECT DISTINCT flTwitch, flEmail
 
-FROM clientes
+-- FROM clientes
+
+
+SELECT * 
+
+
+FROM transacoes
+
