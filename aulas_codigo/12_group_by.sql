@@ -18,5 +18,6 @@ WHERE DtCriacao >= '2025-07-01'
 AND DtCriacao < '2025-08-01'
 
 GROUP BY idCliente
+HAVING somaPontos >= 4000
 
 ORDER BY somaPontos DESC
